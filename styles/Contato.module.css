@@ -1,0 +1,59 @@
+.allform {
+display: flex;
+flex-direction: column;
+align-items: center;
+line-height: 50px;
+}
+
+.formz {
+ text-align: center;
+ font-size: larger;
+}
+
+.btnAction {
+  padding:20px;
+}
+
+
+.btnSubmit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 30px;
+    font-size: large;
+    margin: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+
+  .btnSubmit:hover {
+    background-color: #20e627;
+    color: white;
+  }
+
+#msg, #nome, #email, #fone{
+    text-align: left;
+    width: 400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    justify-content: space-between;
+    display:block;
+    line-height: 25px;
+}
+
+.picContato {
+  padding-top: 90px;
+}
+
+.allCont {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+ 

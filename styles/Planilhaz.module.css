@@ -1,0 +1,54 @@
+.planz {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  justify-content: space-between;
+  align-items: center;
+  padding:5px;
+  }
+  
+  .texto {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  font-size: large;
+  
+  }
+  
+  .btnAll {
+   display:inline-block;
+   margin-bottom: 30px;
+   padding: 60px;
+  }
+  
+  .btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+  }
+  
+  .btn:hover {
+    background-color: #20e627;
+    color: white;
+  }
+
+  .listagem {
+    line-height: 40px;
+    word-spacing: 3px;
+    font-size: large; 
+  }
+
+  .buyin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+  }

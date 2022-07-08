@@ -1,0 +1,47 @@
+.navbarz {
+margin:0;
+display: flex;
+position: fixed;
+z-index: 100;
+top:0;
+width: 100%;
+align-items: center;
+background-color: black;
+height: 80px;
+justify-content: space-between;
+padding: 20px;
+}
+
+.brandz {
+margin:0;
+cursor: pointer;
+}
+
+
+.navitem {
+justify-content: space-between;
+}
+
+.navitem li {
+display: inline-block;
+color: white;
+list-style-type: none;
+padding: 20px;
+transition-duration: 0.4s;
+}
+
+.navitem a:active {
+    color: yellow;
+}
+
+.navitem li:hover {
+background-color: #404041;
+height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .navitem li {
+      padding: 5px;
+      margin: auto;
+    }
+  }

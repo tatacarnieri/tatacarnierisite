@@ -1,0 +1,32 @@
+.Myapp {
+    margin:0;
+    align-items: center;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.appDescr {
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+}
+
+.btnApp {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px 40px;
+    margin: 10px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 2px 5px 0 rgba(0,0,0,0.19);
+}
+
+.btnApp:hover {
+    background-color: #20e627;
+    color: white;
+}

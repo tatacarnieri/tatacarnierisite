@@ -1,0 +1,30 @@
+.rodape {
+bottom: 0;
+background: black;
+padding-top: 20px;
+color: #fff;
+display: inline-flex;
+align-items: center;
+width: 100%;
+}
+
+.picme {
+padding:20px;
+}
+
+.descritivo {
+padding: 10px;
+text-align: left;
+line-height: 1.5;
+flex-direction: column;
+align-items: center;
+font-weight: 100;
+font-size: small;
+}
+
+.descritivo p {
+padding: 10px;
+border-top: 1px solid rgb(26, 22, 22);
+}
+
+
