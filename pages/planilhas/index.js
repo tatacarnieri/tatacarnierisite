@@ -41,7 +41,7 @@ const Planilhas = () => {
                     não consta no aplicativo por hora escolhido.</p>   
             </div> 
             <div className={styles.btnAll}>
-                    <Link href="/planilhas/compras"><a className={styles.btn}>Compras e Estoque</a></Link>
+                    <Link href="/planilhas/compras"><a className={styles.btn}>Compras</a></Link>
                     <Link href="/planilhas/financeiro"><a className={styles.btn}>Financeiro</a></Link>
             </div>    
         </div>  
